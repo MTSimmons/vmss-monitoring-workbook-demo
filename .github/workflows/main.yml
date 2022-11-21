@@ -27,6 +27,7 @@ jobs:
       uses: azure/arm-deploy@v1
       with:
         scope: subscription
+        region: eastus
         template: ./bicep/main.bicep
         parameters: 'ResourceGroupPrefix=vmss-workbook Location=EastUS'
         failOnStdErr: false
