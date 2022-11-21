@@ -15,3 +15,4 @@ resource monitor 'Microsoft.Resources/resourceGroups@2021-04-01' = {
   location: Location
 }
 
+output StartDate string = StartDate
