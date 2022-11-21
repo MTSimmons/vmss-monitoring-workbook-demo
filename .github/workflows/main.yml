@@ -28,6 +28,6 @@ jobs:
       with:
         subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
         resourceGroupName: ${{ secrets.AZURE_RG }}
-        template: ./main.bicep
+        template: ./Bicep/main.bicep
         parameters: 'ResourceGroupPrefix=vmss-workbook Location=EastUS'
         failOnStdErr: false
