@@ -30,5 +30,3 @@ jobs:
         region: eastus
         template: ./bicep/main.bicep
         parameters: 'ResourceGroupPrefix=vmss-workbook Location=EastUS'
-        failOnStdErr: false
-        additionalArguments: "--what-if --rollback-on-error --what-if-exclude-change-types Create Ignore"
